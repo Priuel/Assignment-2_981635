@@ -1,65 +1,209 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Priuel's Blog
-        </title>
-        <style>
-            h1{
-                padding: 10px;
-                background-color:green;
-                color: white;
-                text-align:center;
-            }
-            footer{
-                text-align: center;
-                Color:red;
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="John Doe">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<title>Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Hind|Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- main starts -->
+	<main class="main" id="main">
+		<div class="center">
+			<nav>
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About me</a>
+					</li>
+					<li>
+						<a href="blog.html">Blog list</a>
+					</li>
+					<li>
+						<a href="gallary.html">Gallary</a>
+					</li>
+					<li>
+						<a href="#contact">Contact me</a>
+					</li>
+
+				</ul>
+			</nav>
+
+			<div class="name">
+				<h1>Pradip Poudyal</h1>
+
+				<h3>A Proud
+					<span>Nepali</span>
+				</h3>
+
+				<button class="smooth-btn">Know me more?</button>
+
+			</div>
+		</div>
+
+	</main>
+	<!-- main ends -->
+
+	<!-- about starts -->
+	<div class="about" id="about">
+		<div class="center">
+
+			<div class="left-image">
+				<img src="images/pradip.jpg" alt="image">
+			</div>
+
+			<div class="right-about">
+				<h3>About Me</h3>
+				<p>Hi I am Pradip Paudyal, a 22 year old Student, and just a regular Nepali Guy living here at Sydney, Australia. I am a
+					Computer Science Student, currently studing with awesome folks at ..... </p>
+				<p>
+					Have a look at my Facebook Page, Instagram or just connect with me on LinkedIn. I am always excited to do business with like
+					minded people, lets discuss over coffee.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- about ends -->
+
+	<!-- blog starts -->
+
+	<div class="blog" id="blog">
+		<div class="center">
+			<h3>My Blogs</h3>
+			<div class="outer-wrapper-carousel">
+				<div class="owl-carousel">
+					<div>
+						<div class="outer-image">
+							<img src="images/img_1.jpg" alt="image1">
+						</div>
+						<h5>My Views on Front end Development</h5>
+						<p>This is my first blog post!</p>
+						<button>Read Blog</button>
+					</div>
+					<div>
+						<div class="outer-image">
+							<img src="images/img_2.jpg" alt="image1">
+						</div>
+						<h5>My Views on Graphics Designing</h5>
+						<p>This is my second blog post!</p>
+						<button>Read Blog</button>
+					</div>
+					<div>
+						<div class="outer-image">
+							<img src="images/img_3.jpg" alt="image1">
+						</div>
+						<h5>My Views on Networking</h5>
+						<p>This is my third blog post!</p>
+						<button>Read Blog</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- blog ends -->
+
+	<!-- gallary starts -->
+	<div class="gallary" id="gallary">
+		<div class="center">
+			<h3>My Gallary</h3>
+			<div class="photos">
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img src="images/me.jpg" alt="Avatar" style="width:300px;height:300px;">
+						</div>
+						<div class="flip-card-back">
+							<h1>Profile Picture</h1>
+							<p>In the beach</p>
+							<p>Because its awesome</p>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img src="images/metoo.jpg" alt="Avatar" style="width:300px;height:300px;">
+						</div>
+						<div class="flip-card-back">
+							<h1>Profile Picture</h1>
+							<p>In love with my hair</p>
+							<p>Because its awesome</p>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img src="images/methree.jpg" alt="Avatar" style="width:300px;height:300px;">
+						</div>
+						<div class="flip-card-back">
+							<h1>Profile Picture</h1>
+							<p>In love with my hair</p>
+							<p>Because its awesome</p>
+						</div>
+					</div>
+				</div>
 
 
-            }
-            nav ul li{
-                display:inline;
-                padding :20px;
-                background-color: blue;
+			</div>
+		</div>
+	</div>
 
-                }
-                a{
-                    color:white;
-
-                }
-                
+	<!-- gallary ends -->
 
 
-            
-        </style>
-    </head>
-    <body>
-      <h1><img src="img/6dd173bb-9ed2-492f-85fc-19f483b0210d_200x200.png" height="80"width="80
-        ">
-        Welcome to Priuel's Blog  
-      </h1>
-      
-   <nav>
-       <ul>
-           <Li><a href="index.html">Home</a></Li>
-           <li><a href="Interest.html">Interest</a></li>
-           <li><a href="bloglist.html">Blog List</a></li>
-           <li><a href="gallery.html">Gallery</a></li>
-           <li><a href="contact.html">Contact me</a></li>
+	<!-- contact us start -->
 
-       </ul>
-   </nav>
-        
-        <h3>About Me</h3>
-        <img src="img/1.jpg" height="300"width="250">
-        <p>Hi!
-        This is my new Blogsite . Welcome to my blog site.
-    </p>
-    <h4>My interest</h4>
-    <p>I am just starting the ne blog page . So that i can interact with someof other people who have similar interst like me.
-        I like to watch geography videos, watch sports and listen to music.
-    </p>
-    <footer><p>copyright 2019 @Pradip Poudyal</p></footer>
-    
-    </body>
+	<div class="contact" id="contact">
+		<div class="center">
+			<h3>Contact me</h3>
+			<p>This is for the people who have similar interest like me who wants to get in touch with me</p>
+			<form>
+				<label>Write a message for me below</label>
+				<textarea cols="10" rows="1"></textarea>
+				<div>
+
+					<button>Send</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<!-- contact us ends -->
+
+
+	<!-- footer starts -->
+
+
+	<div class="footer">
+		<div class="center">
+			<h3>No &copy; copyright issues</h3>
+
+		</div>
+	</div>
+
+
+	<!-- footer ends -->
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
 </html>
